@@ -1,0 +1,6 @@
+{
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false,
+    "editor.rulers": [72, 79],
+}
