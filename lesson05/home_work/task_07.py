@@ -47,7 +47,7 @@ def main():
     firms_object = [firms, profit]
 
     with open('task_07.json', 'w', encoding='utf-8') as user_file:
-        json.dump(firms_object, user_file)
+        json.dump(firms_object, user_file, indent=4, ensure_ascii=False)
 
     print('Исходный файл:')
     with open('task_07.txt', 'r', encoding='utf-8') as user_file:
